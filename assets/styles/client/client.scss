@@ -1,17 +1,30 @@
-.header-wrapper{
-  background: url("@/assets/images/vegetable_pattern.svg") #d8456b;
+.header-wrapper {
+  background: url('@/assets/images/vegetable_pattern.svg') #d8456b;
 
-  .brand-name{
-    h1{
+  .brand-name {
+    h1 {
       color: white;
       font-size: 24px;
       width: fit-content;
     }
   }
-  .search-bar{
+
+  .header {
+    display: flex;
+    align-items: center;
+
+    .sidebar-menu {
+      outline: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  .search-bar {
     position: relative;
 
-    span{
+    span {
       position: absolute;
       color: #979797;
       font-size: 1.5rem;
